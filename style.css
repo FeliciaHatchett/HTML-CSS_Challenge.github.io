@@ -7,6 +7,15 @@
     font-size: 30px;
 }
 
+.footer{
+    color: white;
+    margin-left: 60px;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
 .blank{
     background-color: lightgray;
 }
@@ -17,15 +26,14 @@
     font-size: 35px;
     font-weight: bold;
 }
-
-#description-image{
-    float: left;
+img{
+    width: 200px;
+    height: 200px;
 }
 
 #imageNav-area {
     width: 100%;
     padding: 30px 30px 43px;
-   
     background-color: #fff;
   }
 
@@ -52,11 +60,12 @@
     text-align: center;
   }
 
-body{
+html, body{
     background-color: lightgray;
-    margin-left: auto;
+    height: 100%;
 }
-.col-md-7, .col-md-4, .col-md-12{
+
+.col-md-12{
     background-color: white;
     padding: 10px 10px 10px 10px;
     margin-left: auto;
@@ -64,17 +73,43 @@ body{
 }
 
 .box{
-    padding:  25px 50px 25px 50px;
+    padding:  25px 25px 25px 25px;
+    background-color: white;
+    overflow: auto;
+    height: auto;
 }
-
+.img-box{
+    background-color: white;
+    overflow: auto;
+    height: auto;
+}
 tr, th, td{
     text-align: center;
     padding: 10px 10px 10px;
     margin: auto;
 }
 
-@media only screen and (max-width: 750px) {
+
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: rgb(90, 88, 88);
+}
+@media only screen and (max-width: 900px) {
     body {
       background-color: #fff;
     }
+  
   }
