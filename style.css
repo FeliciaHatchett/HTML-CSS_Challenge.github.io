@@ -1,0 +1,84 @@
+#logo{
+    background-color: #4aaaa5;
+    color: white;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.blank{
+    background-color: lightgray;
+}
+
+.description-header{
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#description-image{
+    float: left;
+}
+
+#imageNav-area {
+    width: 100%;
+    padding: 30px 30px 43px;
+   
+    background-color: #fff;
+  }
+
+.imageNav-header {
+    margin-bottom: 15px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #4aaaa5;
+  }
+  
+.imageNav-photo {
+    width: 140px;
+    height: 140px;
+  }
+  
+.imageNav-vis{
+    width: 500px;
+    height: 400px;
+}
+  
+#images {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+body{
+    background-color: lightgray;
+    margin-left: auto;
+}
+.col-md-8, col-md-4, col-md-12{
+    background-color: white;
+    padding: 10px;
+}
+#data-container{
+    margin-left: 300px;
+    box-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+tr, th{
+    background-color: white;
+    text-align: center;
+    padding: 10px 10px 10px;
+    box-align: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+      background-color: #fff;
+    }
+  }
