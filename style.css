@@ -56,24 +56,18 @@ body{
     background-color: lightgray;
     margin-left: auto;
 }
-.col-md-8, col-md-4, col-md-12{
+.col-md-8, .col-md-4, .col-md-12{
     background-color: white;
     padding: 10px;
 }
-#data-container{
-    margin-left: 300px;
-    box-align: center;
+
+.box{
+    padding:  25px 50px 25px 50px;
 }
-table{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-}
-tr, th{
-    background-color: white;
+
+tr, th, td{
     text-align: center;
     padding: 10px 10px 10px;
-    box-align: center;
     margin: auto;
 }
 
